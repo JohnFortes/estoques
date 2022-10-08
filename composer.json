@@ -1,0 +1,16 @@
+{
+    "name": "johnfortes/estoque",
+    
+    "require": {
+        "phpmailer/phpmailer":"5.2.22",
+        "slim/slim":"3.*",
+        "rain/raintpl":"3.0.0",
+        "almasaeed2010/adminlte": "~3.2"        
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpClass\\": "php_classes\\src"
+        }
+    }
+}
